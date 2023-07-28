@@ -16,8 +16,8 @@ main{
 }
 
 #bool-stats{
-    height: 10vh;
-    width: 100%;
+    background-color: #1b72e8;
+    color: white;
 }
 
 #next-class{
@@ -25,11 +25,9 @@ main{
 }
 
 #faq{
-    height: 100px;
 }
 
 #to-do{
-    height: 30px;
 }
 
 #active-users{
@@ -81,7 +79,7 @@ main{
 }
 
 .debug #to-do{
-    border: 2px solid aquamarine;;
+    border: 2px solid aquamarine;
 }
 
 .debug #active-users{
