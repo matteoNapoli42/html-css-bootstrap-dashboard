@@ -1,0 +1,89 @@
+/* UTILITY ZONE*/
+
+
+/*END UTILITY ZONE*/
+
+
+header{
+    background-color: #f8f9fa;
+}
+
+main{
+    height: calc(100vh - 70px);
+}
+
+#sidebar{
+}
+
+#bool-stats{
+    height: 10vh;
+    width: 100%;
+}
+
+#next-class{
+    height: 50px;
+}
+
+#faq{
+    height: 100px;
+}
+
+#to-do{
+    height: 30px;
+}
+
+#active-users{
+    height: 70px;
+}
+
+
+
+/*HEADER ZONE*/
+
+ #navbar-logo{
+    max-height: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+/*DEBUG ZONE*/
+.debug header{
+    border: 2px solid red;
+}
+
+.debug #sidebar{
+    border: 2px solid  blue;
+}
+
+.debug main{
+   
+}
+
+.debug #bool-stats{
+    border: 2px solid lightgreen;
+}
+
+.debug #next-class{
+    border: 2px solid blueviolet;
+}
+
+.debug #faq{
+    border: 2px solid black;
+
+}
+
+.debug #to-do{
+    border: 2px solid aquamarine;;
+}
+
+.debug #active-users{
+    border: 2px solid darksalmon;
+}
