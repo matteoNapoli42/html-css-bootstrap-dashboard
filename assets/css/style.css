@@ -2,7 +2,9 @@
 
 
 /*END UTILITY ZONE*/
-
+body{
+    background-color: white;
+}
 
 header{
     background-color: #f8f9fa;
@@ -39,16 +41,6 @@ main{
  #navbar-logo{
     max-height: 50px;
  }
-
-
-
-
-
-
-
-
-
-
 
 /*DEBUG ZONE*/
 .debug header{

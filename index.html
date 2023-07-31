@@ -91,7 +91,86 @@
                                     </div>
                                     <div class="col-12 col-md-4 my-2 d-flex">
                                         <h4>Nuovo studente</h4>
-                                        <button> INSERIRE BOTTONE +</button>
+                                        <button type="button" class="btn btn-primary border mx-2"
+                                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" 
+                                        aria-controls="offcanvasRight">
+                                            <i class="fa-solid fa-plus fa-lg" style="color: #ffffff;"></i>
+                                        </button>
+                                        <!--OFFCANVAS-->
+                                        <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                            <div class="offcanvas-header">
+                                              <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo utente</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+                                            <div class="offcanvas-body">
+                                                <div class="input-group mb-3">
+                                                    <div class="container-fluid">
+                                                        <form  class="row g-3">
+                                                            <!--NOME-->
+                                                            <div class="col-6">
+                                                                <label for="inputName" class="form-label">Name</label>
+                                                                <input type="name" class="form-control" id="inputName">
+                                                            </div>
+                                                            <!--COGNOME-->
+                                                            <div class="col-6">
+                                                                <label for="inputSurname" class="form-label">Cognome</label>
+                                                                <input type="name" class="form-control" id="inputSurname">
+                                                            </div>
+                                                            <!--EMAIL-->
+                                                            <div class="col-6">
+                                                                <label for="inputEmail" class="form-label">Indirizzo Email</label>
+                                                                <input type="mail" class="form-control" id="inputEmail">
+                                                            </div>
+                                                            <!--PASSWORD-->
+                                                            <div class="col-6">
+                                                                <label for="inputPassword" class="form-label">Password</label>
+                                                                <input type="password" class="form-control" id="inputPassword">
+                                                            </div>
+                                                            <!--NOME-->
+                                                            <div class="col-12">
+                                                                <label for="inputName" class="form-label">Indirizzo</label>
+                                                                <input type="name" class="form-control" id="inputName">
+                                                            </div>
+                                                            <!--NOME-->
+                                                            <div class="col-6">
+                                                                <label for="inputName" class="form-label">Città</label>
+                                                                <input type="text" class="form-control" id="inputName">
+                                                            </div>
+                                                            <!--NOME-->
+                                                            <div class="col-4">
+                                                                <label for="inputState" class="form-label">Stato</label>
+                                                                <select class="form-select" id="inputState">
+                                                                    <option selected>Scegli</option>
+                                                                    <option>dfasfasdf</option>
+                                                                </select>
+                                                            </div>
+                                                            <!--NOME-->
+                                                            <div class="col-2">
+                                                                <label for="inputName" class="form-label">CAP</label>
+                                                                <input type="name" class="form-control" id="inputName">
+                                                            </div>
+                                                           <div class="col-12">
+                                                                <div class="input-groud mb-3">
+                                                                    <input type="file" class="form-control" id="inputGroupFile">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input" id="gridCheck">
+                                                                    <label for="gridCheck" class="form-check-label">
+                                                                        Seleziona per proseguire
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <button type="submit" class="btn btn-primary">Salva</button>
+                                                                <button type="submit" class="btn btn-warning">Svuota</button>
+                                                            </div>
+                                                    </div>
+                                                       
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
